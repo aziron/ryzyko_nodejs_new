@@ -1,0 +1,19 @@
+{
+  "name": "ryzyko",
+  "version": "0.0.0",
+  "description": "ryzyko game",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "password-hash": "*",
+    "mysql" : "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "ignacy",
+  "license": "ISC"
+}

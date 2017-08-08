@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ryzyko</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div id="btn_container">
+  <button onClick="updateValues()">Send request</button>
+</div>
+
+<span id="text_response">
+
+</span>
+
+<form action="" id="login_form">
+  <input type="text" name="username" id="username"/>
+  <input type="submit" name="login_submit" />
+</form>
+
+<canvas id="game-map" width="1100" height="675" style="border:1px solid #000000; background-image:url('images/game-map.jpg')"></canvas>
+
+</body>
+<script src="js/handler.js"></script>
+<script src="js/functions.js"></script>
+</html>
